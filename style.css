@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.header__month {
+  background-color: #fff;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #7158e2;
+  margin-left: 30px;
+  margin-top: 30px; }
+  .header__month:hover {
+    background-color: #7158e2;
+    cursor: pointer; }
+
+.container__month {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.container__contents--left {
+  width: 50vw;
+  height: 100vh;
+  border-right: 1px solid #7158e2; }
+
+.container__contents--right {
+  width: 50vw; }
