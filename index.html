@@ -8,49 +8,66 @@
     <title>Housekeeping Book</title>
   </head>
   <body>
-    <div class="container__month">
-      <button class="header__month">
-        1월
-      </button>
-      <button class="header__month">
-        2월
-      </button>
-      <button class="header__month">
-        3월
-      </button>
-      <button class="header__month">
-        4월
-      </button>
-      <button class="header__month">
-        5월
-      </button>
-      <button class="header__month">
-        6월
-      </button>
-      <button class="header__month">
-        7월
-      </button>
-      <button class="header__month">
-        8월
-      </button>
-      <button class="header__month">
-        9월
-      </button>
-      <button class="header__month">
-        10월
-      </button>
-      <button class="header__month">
-        11월
-      </button>
-      <button class="header__month">
-        12월
-      </button>
-
+    <div class="tab">
+      <button class="tabLinks" onclick="openTab(event, 'tab1')">Tab 1</button>
+      <button class="tabLinks" onclick="openTab(event, 'tab2')">Tab 2</button>
+      <button class="tabLinks" onclick="openTab(event, 'tab3')">Tab 3</button>
     </div>
     
-    <div class="container__contents">
-      <div class="container__contents--left"></div>
-      <div class="container__contents--right"></div>
+    <div id="tab1" class="container__contents">
+      <div class="container__contents--left">
+        <button class="accordion">소비</button>
+        <div class="panel">
+          <p>sjdfkladjklfjasdklfjsdklfsjldk</p>
+        </div>
+      </div>
+      <div class="container__contents--right">
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div id="tab2" class="container__contents">
+      <div class="container__contents--left">
+
+      </div>
+      <div class="container__contents--right">
+
+      </div>
+    </div>
+    
+    <div id="tab3" class="container__contents">
+      <div class="container__contents--left">
+
+      </div>
+      <div class="container__contents--right">
+
+      </div>
     </div>
 
     <script src="script.js"></script>
